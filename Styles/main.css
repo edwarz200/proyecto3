@@ -31,6 +31,11 @@ nav>ul>li>a{
 .containermenu ul li:first-child{
 	border: none;
 }
+.containerpindex>img{
+	margin: 2% 50px;
+	width: 90%;
+	height: 98%;
+}
 /*paginas*/
 
 /*Pagina1*/
