@@ -19,7 +19,7 @@
 	opacity: 0.8;
 	display: inline-block;
 }
-nav>ul>li>a{
+nav ul li a{
 	margin-top: 7%;
 	font-family: monospace;
 	font-size: 18px;
@@ -31,7 +31,7 @@ nav>ul>li>a{
 .containermenu ul li:first-child{
 	border: none;
 }
-.containerpindex>img{
+.containerpindex img{
 	margin: 2% 50px;
 	width: 90%;
 	height: 98%;
@@ -46,7 +46,7 @@ nav>ul>li>a{
 	background-color: black;
 	display: table;
 }
-.containerp1 nav,.containerp2 nav{
+.containerp1 nav,.containerp2 nav, .containerp3 nav{
 	display: inline-block;
 	background-color: white;
 }
@@ -60,7 +60,8 @@ nav>ul>li>a{
 	margin-right: 37.5px;
 }
 .containerp1 nav:nth-child(4),.containerp1 nav:nth-child(5),
-.containerp2 nav:nth-child(1),.containerp2 nav:nth-child(2){
+.containerp2 nav:nth-child(1),.containerp2 nav:nth-child(2),
+.containerp3 nav:nth-child(1),.containerp3 nav:nth-child(2){
 	margin-top: 30px;
 	margin-left: 50px;
 	width: 375px;
@@ -74,25 +75,29 @@ nav>ul>li>a{
 	width: 750px;
 	height: 455px;
 }
-.containerp1 nav>article,.containerp2 nav>article{
+.containerp1 nav article,.containerp2 nav article,.containerp3 nav article{
 background-color: cyan;
 }
-.containerp1>nav:nth-child(1)>article,.containerp1>nav:nth-child(2)>article,.containerp1>nav:nth-child(3)>article,.containerp1 nav:nth-child(4)>article,.containerp1 nav:nth-child(5)>article,
-.containerp1>nav:nth-child(6)>article:nth-child(3)>section,
-.containerp2>nav:nth-child(1)>article,.containerp2>nav:nth-child(2)>article,.containerp2>nav:nth-child(3)>article{
+.containerp1 nav:nth-child(1) article,.containerp1 nav:nth-child(2) article,.containerp1 nav:nth-child(3) article,
+.containerp1 nav:nth-child(4) article,.containerp1 nav:nth-child(5) article,.containerp1 nav:nth-child(6) article:nth-child(3) section,
+.containerp2 nav:nth-child(1) article,.containerp2 nav:nth-child(2) article,.containerp2 nav:nth-child(3) article,
+.containerp3 nav:nth-child(1) article section dl,.containerp3 nav:nth-child(2) article section dl:nth-child(3)
+,.containerp3 nav:nth-child(2) article section dl:last-child,
+.containerp3 nav:nth-child(3) article section:nth-child(3) dl,
+.containerp3 nav:nth-child(4) article section dl pre{
 border-radius: 50%;
 }
-.containerp1>nav:nth-child(1)>article,.containerp1>nav:nth-child(2)>article,.containerp1>nav:nth-child(3)>article,.containerp1 nav:nth-child(4)>article,.containerp1 nav:nth-child(5)>article{
+.containerp1 nav:nth-child(1) article,.containerp1 nav:nth-child(2) article,.containerp1 nav:nth-child(3) article,.containerp1 nav:nth-child(4) article,.containerp1 nav:nth-child(5) article{
 	width: 90%;
 	height: 90%;
 }
-.containerp1 nav:nth-child(1)>article,.containerp1 nav:nth-child(2)>article,.containerp1 nav:nth-child(3)>article{
+.containerp1 nav:nth-child(1) article,.containerp1 nav:nth-child(2) article,.containerp1 nav:nth-child(3) article{
 	margin: 12.5px;
 }
-.containerp1 nav:nth-child(4)>article,.containerp1 nav:nth-child(5)>article{
+.containerp1 nav:nth-child(4) article,.containerp1 nav:nth-child(5) article{
 	margin: 18.75px;
 }
-.containerp1 nav:nth-child(6)>article:nth-child(1),.containerp1 nav:nth-child(6)>article:nth-child(2),.containerp1 nav:nth-child(6)>article:nth-child(3){
+.containerp1 nav:nth-child(6) article:nth-child(1),.containerp1 nav:nth-child(6) article:nth-child(2),.containerp1 nav:nth-child(6) article:nth-child(3){
 	margin-top: 30px;
 	 margin-bottom: 30px;
 	margin-left: 37.5px;
@@ -100,32 +105,35 @@ border-radius: 50%;
 	height: 395px;
 	float: left;
 }
-.containerp1 nav:nth-child(6)>article:nth-child(3){
+.containerp1 nav:nth-child(6) article:nth-child(3){
 	margin-right: 37.5px;
 }
-.containerp1 nav>article>section{
+.containerp1 nav article section,.containerp3 nav article section{
 	background-color: gray;
 }
-.containerp1 nav:nth-child(6)>article:nth-child(1)>section,
-.containerp1 nav:nth-child(6)>article:nth-child(3)>section{
+.containerp1 nav:nth-child(6) article:nth-child(1) section,
+.containerp1 nav:nth-child(6) article:nth-child(3) section{
 	margin-top: 30px;
 	margin-left: 54.5px;
 	margin-right: 54.5px;
 	width: 91px;
 	height: 91px;
 }
-.containerp1 nav:nth-child(6)>article:nth-child(1)>section:nth-child(3),
-.containerp1 nav:nth-child(6)>article:nth-child(3)>section{
+.containerp1 nav:nth-child(6) article:nth-child(1) section:nth-child(3),
+.containerp1 nav:nth-child(6) article:nth-child(3) section{
 	margin-bottom: 30px;
 }
-.containerp1 nav:nth-child(6)>article:nth-child(2)>section{
+.containerp1 nav:nth-child(6) article:nth-child(2) section
+,.containerp3 nav:nth-child(3) article section:nth-child(1) dl,.containerp3 nav:nth-child(3) article section:nth-child(2) dl{
+	border-radius: 30%;
+}
+.containerp1 nav:nth-child(6) article:nth-child(2) section{
 	margin: 40px auto;
 	width: 80%;
 	height:	80%;
-	border-radius: 30%;
 }
 /* Pagina 2 */
-.containerp2 nav:nth-child(1)>article,.containerp2 nav:nth-child(2)>article{
+.containerp2 nav:nth-child(1) article,.containerp2 nav:nth-child(2) article{
 	margin-top: 9.375px;
 	margin-left: 9.375px;
 	margin-bottom: 9.375px;
@@ -133,8 +141,8 @@ border-radius: 50%;
 	height: 45%;
 	float: left;
 }
-.containerp2 nav:nth-child(1)>article:nth-child(2),.containerp2 nav:nth-child(1)>article:nth-child(4),
-.containerp2 nav:nth-child(2)>article:nth-child(2),.containerp2 nav:nth-child(2)>article:nth-child(4){
+.containerp2 nav:nth-child(1) article:nth-child(2),.containerp2 nav:nth-child(1) article:nth-child(4),
+.containerp2 nav:nth-child(2) article:nth-child(2),.containerp2 nav:nth-child(2) article:nth-child(4){
 	margin-right: 9.375px;
 }
 .containerp2 nav:nth-child(3){
@@ -142,7 +150,7 @@ border-radius: 50%;
 	width: 600px;
 	height: 400px;
 }
-.containerp2 nav:nth-child(3)>article{
+.containerp2 nav:nth-child(3) article{
 	margin-top: 15px;
 	margin-left: 16px;
 	margin-bottom: 15px;
@@ -150,7 +158,7 @@ border-radius: 50%;
 	height: 90%;
 	float: left;
 }
-.containerp2 nav:nth-child(3)>article:last-child{
+.containerp2 nav:nth-child(3) article:last-child{
 margin-right: 16px;
 }
 .containerp2 nav:nth-child(4),.containerp2 nav:nth-child(5),.containerp2 nav:nth-child(6){
@@ -165,13 +173,13 @@ width: 150px;
 .containerp2 nav:nth-child(7){
 	width: 300px;
 }
-.containerp2 nav:nth-child(4)>article,.containerp2 nav:nth-child(5)>article,.containerp2 nav:nth-child(6)>article{
+.containerp2 nav:nth-child(4) article,.containerp2 nav:nth-child(5) article,.containerp2 nav:nth-child(6) article{
 	margin: 25px auto;
 	width: 80%;
 	height: 80%;
 	border-radius: 40%;
 }
-.containerp2 nav:nth-child(7)>article{
+.containerp2 nav:nth-child(7) article{
 	margin-top: 15px;
 	margin-left: 20px;
 	margin-bottom: 15px;
@@ -180,6 +188,116 @@ width: 150px;
 	border-radius: 50%;
 	float: left;
 }
-.containerp2 nav:nth-child(7)>article:nth-child(2),.containerp2 nav:nth-child(7)>article:nth-child(4){
+.containerp2 nav:nth-child(7) article:nth-child(2),.containerp2 nav:nth-child(7) article:nth-child(4){
 	margin-right: 20px;
 }
+/* Pagina3*/
+.containerp3 nav:nth-child(1) article,.containerp3 nav:nth-child(2) article,
+.containerp3 nav:nth-child(1) article section,.containerp3 nav:nth-child(2) article section{
+		margin: 4% auto;
+	}
+.containerp3 nav:nth-child(1) article,.containerp3 nav:nth-child(2) article,
+.containerp3 nav:nth-child(1) article section,.containerp3 nav:nth-child(2) article section,
+.containerp3 nav:nth-child(3) article,.containerp3 nav:nth-child(4) article,.containerp3 nav:nth-child(4) article section,.containerp3 nav:nth-child(4) article section dl{
+		width: 90%;
+		height: 90%;
+		display: table;
+}
+.containerp3 nav:nth-child(1) article section dl,.containerp3 nav:nth-child(2) article section dl,
+.containerp3 nav:nth-child(3) article section dl,
+.containerp3 nav:nth-child(4) article section dl pre{
+	float: left;
+}
+.containerp3 nav:nth-child(1) article section dl,.containerp3 nav:nth-child(2) article section dl,
+.containerp3 nav:nth-child(3) article section dl,.containerp3 nav:nth-child(4) article section dl{
+	background-color: yellow;
+	}
+.containerp3 nav:nth-child(1) article section dl,.containerp3 nav:nth-child(2) article section dl{
+	margin-top: 46px;
+	margin-left: 18px;
+	margin-bottom: 30px;
+	width: 75px;
+	height: 75px;
+}
+.containerp3 nav:nth-child(1) article section dl:nth-child(3),.containerp3 nav:nth-child(1) article section dl:nth-child(6),
+.containerp3 nav:nth-child(2) article section dl:nth-child(3),.containerp3 nav:nth-child(2) article section dl:nth-child(6){
+	margin-right: 15.6px;
+}
+.containerp3 nav:nth-child(3),.containerp3 nav:nth-child(4){
+	margin: 40px 50px;
+	width: 800px;
+	height: 375px;
+	display: table;
+}
+.containerp3 nav:nth-child(3) article,
+.containerp3 nav:nth-child(4) article,.containerp3 nav:nth-child(4) article section,.containerp3 nav:nth-child(4) article section dl{
+	margin: 2% auto;
+}
+.containerp3 nav:nth-child(3) article section{
+	margin-top: 35px;
+	margin-left: 35px;
+	margin-bottom: 33px;
+	height: 80%;
+	display: inline-block;
+}
+.containerp3 nav:nth-child(3) article section:first-child{
+	width: 35%;
+}
+.containerp3 nav:nth-child(3) article section:nth-child(2){
+	width: 25%;
+}
+.containerp3 nav:nth-child(3) article section:nth-child(3){
+	width: 20%;
+	margin-right: 38px;
+}
+.containerp3 nav:nth-child(3) article section:nth-child(1) dl{
+	margin-left: 30px;
+	margin-bottom: 25px;
+	width: 34%;
+	height: 82%;
+}
+.containerp3 nav:nth-child(3) article section:nth-child(1) dl:nth-child(2){
+	margin-right: 20px;
+}
+.containerp3 nav:nth-child(3) article section:nth-child(1) dl,
+.containerp3 nav:nth-child(3) article section:nth-child(2) dl,
+.containerp3 nav:nth-child(3) article section:nth-child(3) dl{
+	margin-top: 26px;
+}
+.containerp3 nav:nth-child(3) article section:nth-child(2) dl{
+	margin-left: 18px;
+	margin-right: 14px;
+	width: 82%;
+	height: 34%;
+}
+.containerp3 nav:nth-child(3) article section:nth-child(2) dl:nth-child(2){
+	margin-bottom: 35px;
+}
+.containerp3 nav:nth-child(3) article section:nth-child(3) dl{
+	margin-left: 22px;
+	margin-right: 21px;
+	width: 70%;
+	height: 30%;
+}
+.containerp3 nav:nth-child(3) article section:nth-child(3) dl:nth-child(2){
+	margin-bottom: 55px;
+}
+.containerp3 nav:nth-child(4) article section dl pre{
+	margin-top: 64px;
+	margin-left: 20px;
+	margin-bottom: 60px;
+	width: 16%;
+	height: 54%;
+	background-color: #FF3B3B;
+}
+.containerp3 nav:nth-child(4) article section dl pre:nth-child(5){
+	margin-right: 15px;
+}
+/* Pagina4*/
+
+
+
+
+
+
+s
