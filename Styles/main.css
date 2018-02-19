@@ -95,7 +95,9 @@ div{
 .containerp2 nav:nth-child(1) article,.containerp2 nav:nth-child(2) article,.containerp2 nav:nth-child(3) article,
 .containerp3 nav:nth-child(1) article section dl,.containerp3 nav:nth-child(2) article section dl:nth-child(3),.containerp3 nav:nth-child(2) article section dl:last-child,
 .containerp3 nav:nth-child(3) article section:nth-child(3) dl,.containerp3 nav:nth-child(4) article section dl pre,
-.containerp4 nav:nth-child(1) article,.containerp4 nav:nth-child(3) article,.containerp4 nav:nth-child(5) article{
+.containerp4 nav:nth-child(1) article,.containerp4 nav:nth-child(3) article,.containerp4 nav:nth-child(5) article,.containerp4 nav:nth-child(7) article:nth-child(3) section,.containerp4 nav:nth-child(11) article section,
+.containerp4 nav:nth-child(12) article:nth-child(1) section,.containerp4 nav:nth-child(12) article:nth-child(2) section,.containerp4 nav:nth-child(12) article:nth-child(3) section,
+.containerp4 nav:nth-child(12) article:nth-child(4) section,.containerp4 nav:nth-child(8) article section dl pre{
 border-radius: 50%;
 }
 .containerp1 nav:nth-child(1) article,.containerp1 nav:nth-child(2) article,.containerp1 nav:nth-child(3) article,.containerp1 nav:nth-child(4) article,
@@ -131,9 +133,12 @@ border-radius: 50%;
 	margin-bottom: 30px;
 }
 .containerp1 nav:nth-child(6) article:nth-child(2) section,
+.containerp2 nav:nth-child(4) article,.containerp2 nav:nth-child(5) article,.containerp2 nav:nth-child(6) article,
 .containerp3 nav:nth-child(3) article section:nth-child(1) dl,.containerp3 nav:nth-child(3) article section:nth-child(2) dl,
-.containerp4 nav:nth-child(2) article,.containerp4 nav:nth-child(4) article{
-	border-radius: 30%;
+.containerp4 nav:nth-child(2) article,.containerp4 nav:nth-child(4) article,.containerp4 nav:nth-child(7) article:nth-child(1) section,.containerp4 nav:nth-child(7) article:nth-child(2) section,
+.containerp4 nav:nth-child(9) article section:last-child,.containerp4 nav:nth-child(10) article section:first-child,.containerp4 nav:nth-child(12) article:nth-child(5) section,
+.containerp4 nav:nth-child(9) article section:first-child dl,.containerp4 nav:nth-child(10) article section:last-child dl{
+	border-radius: 45%;
 }
 .containerp1 nav:nth-child(6) article:nth-child(2) section{
 	margin: 40px auto;
@@ -186,7 +191,6 @@ width: 150px;
 	margin: 25px auto;
 	width: 80%;
 	height: 80%;
-	border-radius: 40%;
 }
 .containerp2 nav:nth-child(7) article{
 	margin-top: 15px;
@@ -202,12 +206,13 @@ width: 150px;
 }
 /* Pagina3*/
 .containerp3 nav:nth-child(1) article,.containerp3 nav:nth-child(2) article,.containerp3 nav:nth-child(1) article section,.containerp3 nav:nth-child(2) article section,
-.containerp4 nav:nth-child(9) article,.containerp4 nav:nth-child(10) article,.containerp4 nav:nth-child(11) article{
+.containerp4 nav:nth-child(9) article,.containerp4 nav:nth-child(10) article,.containerp4 nav:nth-child(11) article,.containerp4 nav:nth-child(11) article section{
 		margin: 4% auto;
 	}
 .containerp3 nav:nth-child(1) article,.containerp3 nav:nth-child(2) article,.containerp3 nav:nth-child(1) article section,.containerp3 nav:nth-child(2) article section,
 .containerp3 nav:nth-child(3) article,.containerp3 nav:nth-child(4) article,.containerp3 nav:nth-child(4) article section,.containerp3 nav:nth-child(4) article section dl,
-.containerp4 nav:nth-child(8) article,.containerp4 nav:nth-child(9) article,.containerp4 nav:nth-child(10) article,.containerp4 nav:nth-child(11) article{
+.containerp4 nav:nth-child(8) article,.containerp4 nav:nth-child(9) article,.containerp4 nav:nth-child(10) article,.containerp4 nav:nth-child(11) article,
+.containerp4 nav:nth-child(8) article section,.containerp4 nav:nth-child(9) article section:first-child dl,.containerp4 nav:nth-child(10) article section:last-child dl{
 		width: 90%;
 		height: 90%;
 		display: table;
@@ -366,7 +371,8 @@ width: 150px;
 	width: 25%;
 	height: 60%;
 }
-.containerp4 nav:nth-child(8) article{
+.containerp4 nav:nth-child(8) article,.containerp4 nav:nth-child(8) article section,
+.containerp4 nav:nth-child(9) article section:first-child dl,.containerp4 nav:nth-child(10) article section:last-child dl{
 	margin: 2% auto;
 }
 .containerp4 nav:nth-child(12) article{
@@ -380,20 +386,70 @@ width: 150px;
 .containerp4 nav:nth-child(12) article:last-child{
 	margin-right: 2%;
 }
-.containerp4 nav article section{
-
+.containerp4 nav:nth-child(7) article:nth-child(1) section{
+	margin: 1% 5%;
 }
-.containerp4 nav article section dl{
-
+.containerp4 nav:nth-child(7) article:nth-child(2) section{
+	margin: 10% 4%;
+}
+.containerp4 nav:nth-child(7) article:nth-child(1) section,.containerp4 nav:nth-child(7) article:nth-child(2) section{
+	height: 90%;
+	width: 90%;
+}
+.containerp4 nav:nth-child(7) article:nth-child(3) section{
+	margin-top: 15%;
+	margin-left: 5%;
+	margin-right: 5%;
+	height: 40%;
+	width: 90%;
+}
+.containerp4 nav:nth-child(7) article:nth-child(3) section:last-child{
+	margin-bottom: 15%;
+}
+.containerp4 nav:nth-child(9) article section:first-child,.containerp4 nav:nth-child(10) article section:last-child{
+	display: table;
+}
+.containerp4 nav:nth-child(9) article section:first-child,.containerp4 nav:nth-child(10) article section:first-child,.containerp4 nav:nth-child(12) article:nth-child(5) section:first-child{
+	margin: 7.5% auto;
+}
+.containerp4 nav:nth-child(9) article section,.containerp4 nav:nth-child(10) article section,.containerp4 nav:nth-child(12) article:nth-child(5) section{
+	width: 70%;
+	height: 40%;
+}
+.containerp4 nav:nth-child(9) article section:last-child,.containerp4 nav:nth-child(10) article section:last-child,.containerp4 nav:nth-child(12) article:nth-child(5) section:last-child{
+	margin-left: auto;
+	margin-bottom: 7.5%;
+	margin-right: auto;
+}
+.containerp4 nav:nth-child(11) article section{
+	width: 98%;
+	height: 88%;
+}
+.containerp4 nav:nth-child(12) article:nth-child(1) section,.containerp4 nav:nth-child(12) article:nth-child(2) section,.containerp4 nav:nth-child(12) article:nth-child(3) section,
+.containerp4 nav:nth-child(12) article:nth-child(4) section,.containerp4 nav:nth-child(8) article section dl pre{
+	margin: 30% auto;
+	width: 80%;
+	height: 60%;
+}
+.containerp4 nav:nth-child(8) article section dl{
+	margin-left: 6%;
+	margin-top: 7.5%;
+	margin-bottom: 7.5%;
+	width: 25%;
+	height: 70%;
+	display: inline-block;
+}
+.containerp4 nav:nth-child(8) article section dl:last-child{
+	margin-right: 7%;
 }
 .containerp4 nav article section dl pre{
 
 }
 
 
+
+
+
 90%
 30%
 50%
-
-
-s
